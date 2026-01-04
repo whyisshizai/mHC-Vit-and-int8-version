@@ -81,7 +81,9 @@ FP32	    ~12 MB	    Reference precision
 
 INT8	    ~3 MB	    4x compression with negligible accuracy drop
 
+
 16 Depth Vit
+
 ![qq_pic_merged_1767515417773](https://github.com/user-attachments/assets/3f5edc2e-a026-41b0-8db0-1892193a2777)
 
 

@@ -2,6 +2,10 @@ mHC: Multi-Head Contraction Transformer (Unofficial Paper Reproduction For Perso
 ![alt text](https://img.shields.io/badge/arXiv-2512.24880-b31b1b.svg)
 ![alt text](https://img.shields.io/badge/PyTorch-2.1+-ee4c2c.svg)
 
+
+<img width="1811" height="841" alt="Image_1767514880010_0" src="https://github.com/user-attachments/assets/54db1c41-c62d-4d48-8710-85513cc026a4" />
+
+
 This repository contains a faithful reproduction and extension of the mHC (Multi-Head Contraction / Manifold-constrained Heavy Ball) architecture, inspired by the optimization breakthroughs in recent large-scale model training (e.g., DeepSeek-V3 context).
 The project focuses on ensuring numerical stability in extremely deep Vision Transformers (ViT) and providing a robust path for INT8 deployment.
 # 1. Project Structure

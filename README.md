@@ -8,18 +8,31 @@ The project focuses on ensuring numerical stability in extremely deep Vision Tra
 code
 Bash
 mHC
+
 ├── ConvmHC.py          # Early mHC convolution experiments
+
 ├── ConvmHC2.py         # Final mHCGenerator / mHCPatchBlock (Paper-aligned)
+
 ├── LinearmHC.py        # Linear mHC baseline components
+
 ├── LinearRes.py        # Standard residual linear baseline
+
 ├── mHC.py              # Core Manifold-constrained Heavy Ball logic
+
 ├── evaluator.py        # StabilityEvaluator (Amax / GradNorm / Loss metrics)
+
 ├── data_loader.py      # COCO Caption / VLM Dataset utilities
+
 ├── Conv_test.py        # Convolutional mHC experiments
+
 ├── Linear_test.py      # Linear stability benchmarks
+
 ├── Vit_test.py         # ViT + mHC multi-modal alignment (VLM)
+
 ├── mHC_Full_Analysis.png # Stability analysis visualization
+
 └── README.md
+
 
 # 2. Core Design Principles
 - Paper-strict non-shared gating (`H_pre`, `H_post`, `H_res`)

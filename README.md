@@ -4,6 +4,7 @@
 
 
 <img width="1811" height="841" alt="Image_1767514880010_0" src="https://github.com/user-attachments/assets/54db1c41-c62d-4d48-8710-85513cc026a4" />
+##RESULTS on coco_2014_caption (img -> text)
 
 
 This repository contains a faithful reproduction and extension of the mHC (Multi-Head Contraction / Manifold-constrained Heavy Ball) architecture, inspired by the optimization breakthroughs in recent large-scale model training (e.g., DeepSeek-V3 context).

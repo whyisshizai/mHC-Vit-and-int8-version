@@ -76,10 +76,11 @@ model_int8 = quantize_dynamic(
 
 ## 5.2 Performance Comparison
 
-Precision	Model Size	Notes
-FP32	    ~12 MB	    Reference precision
+Precision	|Model Size	|Notes
 
-INT8	    ~3 MB	    4x compression with negligible accuracy drop
+FP32	    |~12 MB	    |Reference precision
+
+INT8	    |~3 MB	    |4x compression with negligible accuracy drop
 
 
 16 Depth Vit

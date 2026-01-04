@@ -7,7 +7,7 @@ The project focuses on ensuring numerical stability in extremely deep Vision Tra
 # 1. Project Structure
 code
 Bash
-mHC/
+mHC
 ├── ConvmHC.py          # Early mHC convolution experiments
 ├── ConvmHC2.py         # Final mHCGenerator / mHCPatchBlock (Paper-aligned)
 ├── LinearmHC.py        # Linear mHC baseline components

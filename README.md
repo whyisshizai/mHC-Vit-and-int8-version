@@ -21,7 +21,7 @@ mHC
 
 ├── LinearRes.py        # Standard residual linear baseline
 
-├── mHC.py              # Core Manifold-constrained Heavy Ball logic
+├── mHC.py              # Core Manifold-constrained General Version
 
 ├── evaluator.py        # StabilityEvaluator (Amax / GradNorm / Loss metrics)
 

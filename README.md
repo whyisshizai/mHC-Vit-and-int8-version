@@ -1,4 +1,4 @@
-mHC: mHC and mHC-Vit (Unofficial Paper Reproduction For Personal Reference)
+# mHC: mHC and mHC-Vit (Unofficial Paper Reproduction For Personal Reference)
 ![alt text](https://img.shields.io/badge/arXiv-2512.24880-b31b1b.svg)
 ![alt text](https://img.shields.io/badge/PyTorch-2.1+-ee4c2c.svg)
 

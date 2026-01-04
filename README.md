@@ -53,29 +53,29 @@ Unrolled Block Design: Each standard Transformer block is unrolled into two inde
 VLM Alignment: Tested on COCO-style image-to-text semantic alignment, forcing the model to aggregate spatial streams into a single semantic vector (compatible with Sentence-BERT embeddings).
 # 5. INT8 Quantization & Deployment
 To avoid the well-known incompatibilities of RMSNorm and Sinkhorn iterations with TensorRT/ONNX (especially regarding dynamic shapes and custom ops), this repository advocates for PyTorch-native INT8 dynamic quantization.
-5.1 Quantize Model
-code
-Python
+##5.1 Quantize Model
+
+```Python 
 from torch.ao.quantization import quantize_dynamic
 import torch.nn as nn
 
-# Load your trained mHC model
+## Load your trained mHC model
 model_fp32.eval()
 
-# Quantize linear layers to INT8
+## Quantize linear layers to INT8
 model_int8 = quantize_dynamic(
     model_fp32, 
     {nn.Linear}, 
     dtype=torch.qint8
 )
+```
 
-# 5.2 Performance Comparison
+## 5.2 Performance Comparison
 
 Precision	Model Size	Notes
-
 FP32	    ~12 MB	    Reference precision
 
-INT8	    ~3 MB	  | 4x compression with negligible accuracy drop
+INT8	    ~3 MB	    4x compression with negligible accuracy drop
 # 6. Environment & Requirements
 Python ≥ 3.9
 PyTorch ≥ 2.1
